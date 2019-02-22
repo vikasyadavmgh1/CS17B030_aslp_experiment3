@@ -8,8 +8,6 @@ main:
 	mul $t0, $t0, $s0
 	add $t2, $t0, $s2
 	sub $s5, $t2, $t1
-
-	li $v0, 10
 	syscall
 
 .end main
