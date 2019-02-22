@@ -7,7 +7,7 @@ li $s2,1
 
 while:
 beq $s1,$t0,Exit
-srl $s0,$s0,$s2
+sll $s0,$s0,$s2
 srl $s1,$s1,$s2
 j while
 
